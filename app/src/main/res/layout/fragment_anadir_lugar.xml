@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Spinner para seleccionar el tipo de lugar -->
+        <Spinner
+            android:id="@+id/spinnerTipoLugar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <!-- Campo para nombre -->
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:autofillHints=""
+            android:hint="@string/campo_nombre"
+            android:inputType="" />
+
+        <!-- Campo para teléfono -->
+        <EditText
+            android:id="@+id/telefono"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:autofillHints=""
+            android:hint="@string/campo_telefono"
+            android:inputType="phone"/>
+
+        <!-- Campo para dirección -->
+        <EditText
+            android:id="@+id/direccion"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:autofillHints=""
+            android:hint="@string/campo_direccion"
+            android:inputType="text"/>
+
+        <!-- Campo para página web -->
+        <EditText
+            android:id="@+id/paginaWeb"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:autofillHints=""
+            android:hint="@string/campo_pagina_web"
+            android:inputType="textUri"/>
+
+        <!-- Barra de valoración -->
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1"
+            style="@style/ColorRatingBar"/>
+
+        <!-- Imagen y botón para seleccionar -->
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/descripcion_imagen"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:id="@+id/btnAddImagen"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/boton_añadir_imagen" />
+
+        <!-- Botones para añadir y cancelar -->
+        <Button
+            android:id="@+id/btnAñadirLugar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/boton_añadir_lugar" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/boton_cancelar" />
+    </LinearLayout>
+</ScrollView>

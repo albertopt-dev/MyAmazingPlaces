@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:weightSum="3"
+    android:gravity="center_vertical">
+
+    <!-- Imagen del lugar -->
+    <ImageView
+        android:id="@+id/ivLugar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/nombre_lugar"
+        android:src="@android:drawable/ic_menu_camera"
+        android:layout_marginEnd="10dp"
+        android:scaleType="centerCrop" />
+
+    <!-- Información del lugar -->
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/nombre_lugar"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTipoLugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tipo_lugar"
+            android:textColor="#888888"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Contenedor de botones y checkbox -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp">
+
+        <Button
+            android:id="@+id/btnDetalles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_detalles"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/colorTitulo" />
+
+        <Button
+            android:id="@+id/btnVerMapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_ver_mapa"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/colorTitulo" />
+
+        <!-- CheckBox para modo edición -->
+        <CheckBox
+            android:id="@+id/lugar_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text=""
+            android:layout_gravity="center" />
+    </LinearLayout>
+</LinearLayout>

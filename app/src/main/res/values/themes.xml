@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema principal de la aplicación -->
+    <style name="Theme.MyAmazingPlaces1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_200</item>
+        <item name="colorSecondary">@color/purple_200</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColorPrimary">@color/black</item>
+
+        <!-- Color de la barra de estado -->
+        <item name="android:statusBarColor">@color/teal_200</item>
+
+        <!-- Configuración del menú -->
+        <item name="android:actionMenuTextColor">@color/black</item>
+        <item name="android:actionOverflowMenuStyle">@style/Widget.AppCompat.PopupMenu.Overflow</item>
+        <item name="android:popupMenuStyle">@style/Widget.AppCompat.PopupMenu</item>
+
+        <!-- Configuración de diálogos -->
+        <item name="alertDialogTheme">@style/CustomAlertDialog</item>
+    </style>
+
+    <!-- Tema para los diálogos -->
+    <style name="CustomAlertDialog" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="colorAccent">@color/purple_200</item> <!-- Color de botones Aceptar/Cancelar -->
+        <item name="android:buttonBarPositiveButtonStyle">@style/DialogButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/DialogButtonStyle</item>
+    </style>
+
+    <!-- Estilo de los botones en los cuadros de diálogo -->
+    <style name="DialogButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/black</item> <!-- Color del texto de los botones -->
+        <item name="android:backgroundTint">@color/purple_200</item> <!-- Color de fondo de los botones -->
+    </style>
+
+    <!-- Color de la valoracion -->
+    <style name="ColorRatingBar" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressTint">@color/gold</item>
+        <item name="android:secondaryProgressTint">@color/light_gold</item>
+        <item name="android:progressBackgroundTint">@color/gray</item>
+    </style>
+
+</resources>

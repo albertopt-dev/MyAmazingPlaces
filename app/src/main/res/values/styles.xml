@@ -1,0 +1,18 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.MyAmazingPlaces" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Colores -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:popupMenuStyle">@style/Widget.AppCompat.PopupMenu.Overflow</item>
+        <item name="android:itemTextAppearance">@style/TextAppearance.AppCompat.Menu</item>
+
+        <!-- Color de la barra de estado -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="windowActionBar">true</item>
+
+
+
+    </style>
+</resources>

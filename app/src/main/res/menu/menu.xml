@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Submenú para ordenar -->
+    <item
+        android:id="@+id/menu_order"
+        android:title="@string/ordenar">
+        <menu>
+            <item
+                android:id="@+id/menu_order_alphabetically"
+                android:title="@string/ordenar_alfabeticamente"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/menu_order_by_rating"
+                android:title="@string/ordenar_por_valoracion"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <!-- Opción para añadir lugar -->
+    <item
+        android:id="@+id/menu_add_place"
+        android:title="@string/titulo_añadir_lugar"
+        app:showAsAction="never" />
+
+    <!-- Opción para editar lugar -->
+    <item
+        android:id="@+id/menu_edit_places"
+        android:title="@string/editar_lugares"
+        app:showAsAction="never" />
+
+    <!-- Opción para volver al menú principal -->
+    <item
+        android:id="@+id/menu_main_menu"
+        android:title="@string/volver_a_pantalla_principal"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Imagen del lugar -->
+        <ImageView
+            android:id="@+id/ivLugarDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/descripcion_imagen"
+            android:scaleType="centerCrop" />
+
+        <!-- Detalles -->
+        <TextView
+            android:id="@+id/tvNombreDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/nombre_lugar" />
+
+        <TextView
+            android:id="@+id/tvTipoDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/tipo_lugar" />
+
+        <TextView
+            android:id="@+id/tvTelefonoDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/telefono_lugar" />
+
+        <TextView
+            android:id="@+id/tvDireccionDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/direccion_lugar" />
+
+        <TextView
+            android:id="@+id/tvPaginaWebDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/pagina_web_lugar" />
+
+        <RatingBar
+            android:id="@+id/ratingBarDetalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:numStars="5"
+            android:stepSize="1"
+            android:isIndicator="true"
+            style="@style/ColorRatingBar"/>
+
+
+        <!-- Botón para regresar -->
+        <Button
+            android:id="@+id/btnRegresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/boton_regresar" />
+    </LinearLayout>
+</ScrollView>

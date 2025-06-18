@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Título de la aplicación -->
+    <string name="app_name">My Amazing Places</string>
+
+    <!-- Pantalla Principal (MainActivity) -->
+    <string name="titulo_principal">Lista de Lugares Favoritos</string>
+    <string name="boton_añadir">Añadir Lugar</string>
+    <string name="boton_borrar_todo">Borrar Todo</string>
+    <string name="boton_editar">Editar Lugar</string>
+    <string name="mensaje_no_disponible">De momento no está disponible, disculpen las molestias.</string>
+    <string name="descripcion_imagen">Imagen del lugar</string>
+
+    <!-- Pantalla de Detalles del Lugar -->
+    <string name="titulo_detalles">Detalles del Lugar</string>
+    <string name="nombre_lugar">Nombre del Lugar</string>
+    <string name="tipo_lugar">Tipo de Lugar</string>
+    <string name="telefono_lugar">+() 000000000</string>
+    <string name="direccion_lugar">Dirección: Calle Ejemplo 123</string>
+    <string name="pagina_web_lugar">www.ejemplo.com</string>
+    <string name="valoracion_lugar">Valoración</string>
+
+
+    <!-- Pantalla de Añadir Lugar -->
+    <string name="titulo_añadir_lugar">Añadir Nuevo Lugar</string>
+    <string name="campo_nombre">Nombre del Lugar</string>
+    <string name="campo_tipo">Tipo de Lugar</string>
+    <string name="campo_telefono">Teléfono (opcional)</string>
+    <string name="campo_direccion">Dirección</string>
+    <string name="campo_pagina_web">Página Web (opcional)</string>
+
+
+    <!-- Pantalla de Editar Lugar -->
+    <string name="titulo_editar_lugar">Editar Lugar</string>
+    <string name="mensaje_imagen_seleccionada">Imagen seleccionada correctamente.</string>
+    <string name="mensaje_error_imagen">Error al cargar la imagen.</string>
+    <string name="mensaje_guardar_exitoso">Los cambios se guardaron correctamente.</string>
+    <string name="mensaje_guardar_error">Error al guardar los cambios. Intenta nuevamente.</string>
+    <string name="mensaje_eliminar_confirmacion">¿Estás seguro de que quieres eliminar este lugar?</string>
+
+    <!-- Mensajes Generales -->
+    <string name="mensaje_faltan_campos">Por favor, rellena todos los campos obligatorios.</string>
+    <string name="mensaje_no_lugares_guardados">No hay lugares guardados en tu lista.</string>
+    <string name="mensaje_borrar_todos_lugares">¿Estás seguro de que quieres eliminar todos los lugares?</string>
+    <string name="mensaje_borrar_lugar">¿Estás seguro de que quieres eliminar este lugar?</string>
+
+    <!-- Opciones para el Spinner de tipo de lugar -->
+    <string-array name="tipos_lugar">
+        <item>Restaurante</item>
+        <item>Monumento</item>
+        <item>Museo</item>
+        <item>Parque</item>
+        <item>Teatro</item>
+        <item>Cafetería</item>
+        <item>Centro Comercial</item>
+        <item>Otro</item>
+    </string-array>
+
+    <!-- Strings faltantes para menu.xml -->
+    <string name="op1">Ordenar por Nombre</string>
+    <string name="op2">Ordenar por</string>
+    <string name="op21">Valoración Descendente</string>
+    <string name="op22">Valoración Ascendente</string>
+    <string name="op3">Opción 3</string>
+    <string name="op4">Opción 4</string>
+
+    <!-- Hint y Placeholders -->
+    <string name="hint_nombre_lugar">Nombre del Lugar</string>
+    <string name="hint_telefono">Teléfono</string>
+    <string name="hint_direccion">Dirección</string>
+    <string name="hint_pagina_web">Página Web</string>
+
+    <!-- Botones -->
+    <string name="boton_guardar_cambios">Guardar Cambios</string>
+    <string name="boton_eliminar_lugar">Eliminar Lugar</string>
+    <string name="boton_añadir_imagen">Añadir Imagen</string>
+    <string name="boton_seleccionar_imagen">Seleccionar Imagen</string>
+    <string name="boton_añadir_lugar">Añadir Lugar</string>
+    <string name="boton_cancelar">Cancelar</string>
+    <string name="boton_ver_mapa">Ver Mapa</string>
+    <string name="boton_detalles">Detalles</string>
+    <string name="boton_regresar">Regresar</string>
+    <string name="actualizar_imagen">Actualizar Imagen</string>
+    <string name="editar_lugares">Editar lugares</string>
+    <string name="lista_de_lugares">Lista de lugares</string>
+    <string name="ordenar_alfabeticamente">Ordenar de la a - z</string>
+    <string name="ordenar_por_valoracion">Ordenar por valoración</string>
+    <string name="ordenar">Ordenar</string>
+    <string name="borrar_seleccion">borrar seleccion</string>
+    <string name="volver_a_pantalla_principal">Pantalla pricipal</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+</resources>

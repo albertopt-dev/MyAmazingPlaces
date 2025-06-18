@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "705730124882",
+    "project_id": "myamazingplaces1",
+    "storage_bucket": "myamazingplaces1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705730124882:android:b4267c3d354165f780d38b",
+        "android_client_info": {
+          "package_name": "edu.albertoperez.myamazingplaces1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHbMv64ooWCLbcsqKc7_gmVHMK82LjLXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

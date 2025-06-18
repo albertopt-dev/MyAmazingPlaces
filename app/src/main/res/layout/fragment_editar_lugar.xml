@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Imagen del lugar -->
+        <ImageView
+            android:id="@+id/ivLugarImagen"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/descripcion_imagen"
+            android:scaleType="centerCrop"
+            android:background="@color/colorPrimary" />
+
+        <!-- Botón para añadir imagen -->
+        <Button
+            android:id="@+id/btnAddImagen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/boton_añadir_imagen" />
+
+        <!-- Nombre del lugar -->
+        <EditText
+            android:id="@+id/editNombre"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:autofillHints=""
+            android:hint="@string/hint_nombre_lugar"
+            android:inputType="textPersonName" />
+
+        <!-- Teléfono -->
+        <EditText
+            android:id="@+id/editTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:autofillHints=""
+            android:hint="@string/hint_telefono"
+            android:inputType="phone" />
+
+        <!-- Dirección -->
+        <EditText
+            android:id="@+id/editDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:autofillHints=""
+            android:hint="@string/hint_direccion"
+            android:inputType="textWebEditText" />
+
+        <!-- Página web -->
+        <EditText
+            android:id="@+id/editPaginaWeb"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:autofillHints=""
+            android:hint="@string/hint_pagina_web"
+            android:inputType="textUri" />
+
+        <!-- Valoración -->
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1.0"
+            style="@style/ColorRatingBar"/>
+
+        <!-- Tipo del lugar -->
+        <Spinner
+            android:id="@+id/spinnerTipo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <!-- Botón para guardar cambios -->
+        <Button
+            android:id="@+id/btnGuardarCambios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/boton_guardar_cambios" />
+
+        <!-- Botón para eliminar lugar -->
+        <Button
+            android:id="@+id/btnEliminarLugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/boton_eliminar_lugar" />
+
+    </LinearLayout>
+</ScrollView>
